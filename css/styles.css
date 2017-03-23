@@ -1,7 +1,18 @@
-.title {
- 
+.clickable {
+
+ cursor: pointer;
+ color: #0088cc;
+
 }
 
 .col-md-6 {
   text-align: center;
+}
+
+
+#hiddenCat, #hiddenDog {
+  display: none;
+  width: 75%;
+  height: 75%;
+  padding:20px;
 }

@@ -11,24 +11,31 @@
   <body>
 
   <div class="container">
+    <div class="jumbotron">
+      <h1>Dogs vs Cats</h1>
+    </div>
     <div class="row">
      <div class="col-md-6">
-       <h1 class="title">DOG SAID</h1>
-       <button class="btn btn-warning" id="dog">Woof!</button>
+       <button id="showDog"><span class="clickable">Click to see the Dog</span></button>
+       <img id="hiddenDog" src="http://www.signtorch.com/vector/_gallery/sample/elkhound_dog=.svg">
+       <h2>DOG SAID</h2>
+       <button class="btn btn-info" id="dog">Woof!</button>
       </div>
 
       <div class="col-md-6">
-        <h1 class="title">CAT SAID</h1>
+        <button id="showCat"><span class="clickable">Click to see the Cat</span></button>
+        <img id="hiddenCat" src="http://clipartist.net/social/clipartist.net/B/black_cat_4.svg">
+        <h2 class="title">CAT SAID</h2>
         <button class="btn btn-success" id="cat">Meow</button>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-6">say
-        <ul class="unstyled"></ul>
+      <div class="col-md-6">
+        <p id="dogList"></p>
       </div>
-      <div class="col-md-6">say
-        <p></p>
+      <div class="col-md-6">
+        <p id="catList"></p>
       </div>
     </div>
    </div>
